@@ -1,0 +1,15 @@
+C:\Users\h66yd\source\repos\Holger2\Holger2\bin\Debug\net8.0\Holger2.exe
+C:\Users\h66yd\source\repos\Holger2\Holger2\bin\Debug\net8.0\Holger2.deps.json
+C:\Users\h66yd\source\repos\Holger2\Holger2\bin\Debug\net8.0\Holger2.runtimeconfig.json
+C:\Users\h66yd\source\repos\Holger2\Holger2\bin\Debug\net8.0\Holger2.dll
+C:\Users\h66yd\source\repos\Holger2\Holger2\bin\Debug\net8.0\Holger2.pdb
+C:\Users\h66yd\source\repos\Holger2\Holger2\obj\Debug\net8.0\Holger2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\h66yd\source\repos\Holger2\Holger2\obj\Debug\net8.0\Holger2.AssemblyInfoInputs.cache
+C:\Users\h66yd\source\repos\Holger2\Holger2\obj\Debug\net8.0\Holger2.AssemblyInfo.cs
+C:\Users\h66yd\source\repos\Holger2\Holger2\obj\Debug\net8.0\Holger2.csproj.CoreCompileInputs.cache
+C:\Users\h66yd\source\repos\Holger2\Holger2\obj\Debug\net8.0\Holger2.dll
+C:\Users\h66yd\source\repos\Holger2\Holger2\obj\Debug\net8.0\refint\Holger2.dll
+C:\Users\h66yd\source\repos\Holger2\Holger2\obj\Debug\net8.0\Holger2.pdb
+C:\Users\h66yd\source\repos\Holger2\Holger2\obj\Debug\net8.0\Holger2.genruntimeconfig.cache
+C:\Users\h66yd\source\repos\Holger2\Holger2\obj\Debug\net8.0\ref\Holger2.dll
+C:\Users\h66yd\source\repos\Holger2\Holger2\obj\Debug\net8.0\Holger2.sourcelink.json
