@@ -12,4 +12,3 @@ C:\Users\h66yd\source\repos\Holger2\Holger2\obj\Debug\net8.0\refint\Holger2.dll
 C:\Users\h66yd\source\repos\Holger2\Holger2\obj\Debug\net8.0\Holger2.pdb
 C:\Users\h66yd\source\repos\Holger2\Holger2\obj\Debug\net8.0\Holger2.genruntimeconfig.cache
 C:\Users\h66yd\source\repos\Holger2\Holger2\obj\Debug\net8.0\ref\Holger2.dll
-C:\Users\h66yd\source\repos\Holger2\Holger2\obj\Debug\net8.0\Holger2.sourcelink.json

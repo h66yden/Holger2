@@ -1,8 +1,8 @@
 ﻿using System;
 
 string alphabet = "abcdefghijklmnopqrstuvwxyz";
-string[,] grid = new string[25 , 25];
-string[] rgb = { "Red", "Blue", "Green" };
+string[,] grid = new string[26, 26];
+ConsoleColor[] rgb = { ConsoleColor.Red, ConsoleColor.Blue, ConsoleColor.Green };
 
 Random rand = new Random();
 int holger_x = rand.Next(1, grid.GetLength(0));
@@ -33,11 +33,15 @@ for (int x = 0; x < grid.GetLength(0); x++)
 {
     for (int y = 0; y < grid.GetLength(1); y++)
     {
+        Console.ForegroundColor = rgb[rand.Next(0, rgb.Length)];
         Console.Write(grid[x, y]);
+        Thread.Sleep(1);
     }
     Console.WriteLine();
+
     grid[holger_x, holger_y] = "@".PadLeft(4);
 }
+
 
 bool guessing = true;
 do
@@ -48,18 +52,20 @@ do
     Console.WriteLine("Y koordinat = ");
     int holger_y_in = Convert.ToInt32(Console.ReadLine());
 
+ 
+
     if (holger_x_in == holger_x && holger_y_in == holger_y)
-    {   
+    {
         guessing = false;
     }
     else
     {
         Console.WriteLine("Forkert!");
+        Console.Beep();
         guessing = true;
     }
 
 } while (guessing);
 
 Console.WriteLine("DU HAR VUNDET!");
-
-
+Console.ReadKey();
