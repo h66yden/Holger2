@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 string alphabet = "abcdefghijklmnopqrstuvwxyz";
 string[,] grid = new string[26, 26];
@@ -9,9 +9,9 @@ int holger_x = rand.Next(1, grid.GetLength(0));
 int holger_y = rand.Next(1, grid.GetLength(1));
 
 
-// Print koordinater på Y aksen
+// Indsæt koordinater på Y aksen i array
 for (int y = 1; y < grid.GetLength(0); y++)
-{
+{  
     grid[y, 0] = Convert.ToString(y).PadLeft(4);
 }
 
@@ -19,7 +19,7 @@ for (int x = 0; x < grid.GetLength(0); x++)
 {
     grid[0, x] = Convert.ToString(x).PadLeft(4);
 }
-
+// Indsæt koordinater på X aksen i array
 for (int x = 1; x < grid.GetLength(0); x++)
 {
     for (int y = 1; y < grid.GetLength(1); y++)
@@ -33,9 +33,17 @@ for (int x = 0; x < grid.GetLength(0); x++)
 {
     for (int y = 0; y < grid.GetLength(1); y++)
     {
-        Console.ForegroundColor = rgb[rand.Next(0, rgb.Length)];
-        Console.Write(grid[x, y]);
-        Thread.Sleep(1);
+        if (x == 0 || y == 0)
+        {
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Write(grid[x, y]);
+        }
+        else
+        {
+            Console.ForegroundColor = rgb[rand.Next(0, rgb.Length)];
+            Console.Write(grid[x, y]);
+            Thread.Sleep(1);
+        }
     }
     Console.WriteLine();
 
@@ -46,7 +54,8 @@ for (int x = 0; x < grid.GetLength(0); x++)
 bool guessing = true;
 do
 {
-    Console.WriteLine("Hvor er holger?");
+    Console.ForegroundColor= ConsoleColor.White;
+    Console.WriteLine("Hvor er Holger?");
     Console.WriteLine("X koordinat = ");
     int holger_x_in = Convert.ToInt32(Console.ReadLine());
     Console.WriteLine("Y koordinat = ");
